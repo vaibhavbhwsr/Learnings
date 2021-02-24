@@ -1,0 +1,70 @@
+Best website to learn from is "http://www.cplusplus.com/"
+
+
+#Some C++ data types, their format specifiers, and their most common bit widths are as follows:
+
+Int ("%d"): 32 Bit integer
+Long ("%ld"): 64 bit integer
+Char ("%c"): Character type
+Float ("%f"): 32 bit real value
+Double ("%lf"): 64 bit real value
+
+*You can also use cin and cout instead of scanf and printf; however, if you are taking a million numbers as input and printing a million lines, it is faster to use scanf and printf.
+
+
+#Pointer 
+*var is used to makes change in value
+&var show address 
+
+#Variable sized array(can be done using pointer)
+
+#STL	(revise it or correct it, if wrong written below)
+-vector<data_type> var_name;
+-list<data_type> var_name;
+-map<data_type> var_name;
+
+#Class
+-freind function (learn it)
+-inheritance 
+
+#Inheritance for predefined classed like ostream and istream etc
+
+#string
+-stringstream header file sstream
+
+Operator >> Extracts formatted data.
+Operator << Inserts formatted data.
+Method str() Gets the contents of underlying string device object.
+Method str(string) Sets the contents of underlying string device object.
+Its header file is sstream.
+
+#Templates - only knows what it is
+	template <class T> // here T can be any data type like int, float, etc.
+	class vector{
+	
+	};
+
+#operator overloading for ostream << and istream >> (revise it for cplusplus)
+
+ostream &operator<<(ostream &output, className &objName){
+	output<< "wrinting output as we want like " << objName.using_funciton() << objName.use_variables << "this";
+	return output;
+}
+istream &operator>>(istream &input, Person &p){
+	input >> p.name >> p.age;
+	return input;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
