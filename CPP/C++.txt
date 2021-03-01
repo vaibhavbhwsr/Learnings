@@ -26,6 +26,7 @@ Double ("%lf"): 64 bit real value
 #Class
 -freind function (learn it)
 -inheritance 
+-virtual function
 
 #Inheritance for predefined classed like ostream and istream etc
 
@@ -38,7 +39,7 @@ Method str() Gets the contents of underlying string device object.
 Method str(string) Sets the contents of underlying string device object.
 Its header file is sstream.
 
-#Templates - only knows what it is
+#Templates - only knows what it is (need to understand more about this)
 	template <class T> // here T can be any data type like int, float, etc.
 	class vector{
 	
@@ -55,6 +56,9 @@ istream &operator>>(istream &input, Person &p){
 	return input;
 }
 
+#enum datatype (need to understand more in this )
+#union 	(need to understand more in this)
+# #include<iomanip> // input output manipulator I need to understand this because I dont know about this.
 
 
 
